@@ -183,7 +183,7 @@
         <!--View Controller-->
         <scene sceneID="iFV-0N-ZsI">
             <objects>
-                <viewController id="O6T-1z-Dt3" sceneMemberID="viewController">
+                <viewController id="O6T-1z-Dt3" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JoQ-Zo-MqW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -201,6 +201,43 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is vegitarian/vegan?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t34-Dy-UAk">
+                                <rect key="frame" x="20" y="112" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegitarians are people who don't eat meat." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2R-H6-vxL">
+                                <rect key="frame" x="0.0" y="199" width="414" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vegans are people who don't eat any food that comes from animals. Dairy, eggs, meat, etc." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4R-B0-Fb7">
+                                <rect key="frame" x="0.0" y="298" width="414" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U2-Nc-Tl9">
+                                <rect key="frame" x="20" y="626" width="374" height="236"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="vv2"/>
+                                <connections>
+                                    <action selector="vvHelpTwo:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="A4p-um-O8u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cda-ac-kLW">
+                                <rect key="frame" x="70" y="435" width="275" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="vv"/>
+                                <connections>
+                                    <action selector="vvHelp:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="crf-Z6-tdy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ryo-ca-Ewk"/>
@@ -208,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shq-gr-00t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35" y="1200"/>
+            <point key="canvasLocation" x="-36.231884057971016" y="1200"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gZJ-cf-idz">
@@ -621,7 +658,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jG3-pg-gRI">
-                                <rect key="frame" x="32" y="450" width="351" height="170"/>
+                                <rect key="frame" x="34" y="435" width="360" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="lactose"/>
                                 <connections>
@@ -629,7 +666,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I10-vF-kxA">
-                                <rect key="frame" x="34" y="657" width="347" height="172"/>
+                                <rect key="frame" x="55" y="651" width="294" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="lactose2"/>
                                 <connections>
@@ -651,9 +688,11 @@
         <image name="gluten2" width="225" height="225"/>
         <image name="lactose" width="297" height="170"/>
         <image name="lactose2" width="293" height="172"/>
+        <image name="vv" width="275" height="183"/>
+        <image name="vv2" width="750" height="580"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8fh-Pr-IaG"/>
-        <segue reference="IH2-6c-ks4"/>
+        <segue reference="54p-vL-MmP"/>
     </inferredMetricsTieBreakers>
 </document>

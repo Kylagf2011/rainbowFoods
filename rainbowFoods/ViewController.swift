@@ -33,6 +33,13 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://g.co/kgs/tq4dyM")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func vvHelp(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.healthline.com/nutrition/what-is-a-vegan")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func vvHelpTwo(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.healthline.com/nutrition/vegan-vs-vegetarian")! as URL, options: [:], completionHandler: nil)
+    }
     
 }
 
