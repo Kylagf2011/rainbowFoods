@@ -41,5 +41,37 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.healthline.com/nutrition/vegan-vs-vegetarian")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func fastingTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Fasting")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func dietingTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://en.wikipedia.org/wiki/Dieting")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func soyTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.healthline.com/health/allergies/soy")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func eggTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.mayoclinic.org/diseases-conditions/egg-allergy/symptoms-causes/syc-20372115")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func treeNutTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.foodallergy.org/common-allergens/tree-nut-allergy")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func peaNutTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.foodallergy.org/common-allergens/peanut-allergy")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func shellfishTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.foodallergy.org/common-allergens/shellfish-allergy")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func seafoodTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.webmd.com/allergies/news/20040713/seafood-allergies-common-adults")! as URL, options: [:], completionHandler: nil)
+    }
+    
 }
 
