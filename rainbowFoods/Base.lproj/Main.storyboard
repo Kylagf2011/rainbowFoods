@@ -20,12 +20,15 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rainbow Foods" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wx-1e-Ang">
                                 <rect key="frame" x="0.0" y="92" width="414" height="154"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="154" id="Lcy-fz-NvO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCW-Ji-tcl">
-                                <rect key="frame" x="20" y="519.5" width="374" height="170"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCW-Ji-tcl">
+                                <rect key="frame" x="77" y="544" width="261" height="170"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="132"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -34,8 +37,8 @@
                                     <segue destination="Ghd-Gm-10w" kind="show" id="uRn-b6-1xI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🌈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-Qf-tuy">
-                                <rect key="frame" x="141" y="275" width="132" height="70.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🌈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-Qf-tuy">
+                                <rect key="frame" x="175" y="300" width="64" height="71"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="59"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,16 +46,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.58438979240461553" green="0.87052316125464491" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCW-Ji-tcl" secondAttribute="bottom" constant="172.5" id="2w2-5D-4vg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oFk-Qf-tuy" secondAttribute="trailing" constant="141" id="48V-kS-PZK"/>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GJx-kG-CGD"/>
-                            <constraint firstItem="nCW-Ji-tcl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OLP-fN-iXo"/>
-                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="top" secondItem="7Wx-1e-Ang" secondAttribute="bottom" constant="29" id="RjU-gw-c9u"/>
-                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="Z7f-vp-Rpk"/>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="cJY-O2-ZAE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Wx-1e-Ang" secondAttribute="bottom" constant="616" id="gIM-Ae-NoB"/>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kpO-KB-S1m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nCW-Ji-tcl" secondAttribute="trailing" constant="20" id="vkq-yy-iG7"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5QO-v4-vmP"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="centerX" secondItem="nCW-Ji-tcl" secondAttribute="centerX" id="UFw-n1-sPD"/>
+                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="209" id="X77-29-kXw"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="YOF-Nn-1Xg"/>
+                            <constraint firstAttribute="trailing" secondItem="7Wx-1e-Ang" secondAttribute="trailing" id="gOk-eu-pUb"/>
+                            <constraint firstItem="nCW-Ji-tcl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="ipN-Ig-Poe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCW-Ji-tcl" secondAttribute="bottom" constant="148" id="r6y-Qz-Jmy"/>
+                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="top" secondItem="7Wx-1e-Ang" secondAttribute="bottom" constant="29" id="thV-KW-1vd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -69,54 +70,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HS-rq-W0B">
-                                <rect key="frame" x="-90" y="171" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HS-rq-W0B">
+                                <rect key="frame" x="-90.5" y="171" width="595" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="M1c-Gh-N1V"/>
+                                    <constraint firstAttribute="width" constant="595" id="uUK-MP-D2E"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Celiac/Gluten Intolerance"/>
                                 <connections>
                                     <segue destination="AcG-KJ-cq9" kind="show" id="NTz-Oj-hbA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8M-CI-svU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8M-CI-svU">
                                 <rect key="frame" x="20" y="279" width="374" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="Imr-Fg-tMf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Lactose Intolerance"/>
                                 <connections>
                                     <segue destination="X52-6Q-n7P" kind="show" id="bmj-y8-4d3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-mN-a1u">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBb-mN-a1u">
                                 <rect key="frame" x="20" y="384" width="374" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="uFR-J4-s94"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="Allergies"/>
                                 <connections>
                                     <segue destination="tVV-T4-wzI" kind="show" id="8fh-Pr-IaG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlA-R6-jsv">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlA-R6-jsv">
                                 <rect key="frame" x="20" y="591" width="374" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="B8s-NG-O1l"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Fasting"/>
                                 <connections>
                                     <segue destination="RxZ-Ks-PMm" kind="show" id="7g1-5O-8tC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hoj-8C-z55">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hoj-8C-z55">
                                 <rect key="frame" x="20" y="697" width="374" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <state key="normal" title="Vegan/Vegitrian"/>
+                                <state key="normal" title="Vegan/Vegitarian"/>
                                 <connections>
                                     <segue destination="O6T-1z-Dt3" kind="show" id="O5G-K7-b3Z"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKh-Et-4dz">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKh-Et-4dz">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Food Restrictions" id="pZk-df-26G">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="eAe-rr-A9q">
@@ -127,14 +135,42 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNP-p1-cyy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNP-p1-cyy">
                                 <rect key="frame" x="20" y="479" width="374" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="q7t-59-lqb"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Dieting"/>
+                                <connections>
+                                    <segue destination="dVo-A4-2QH" kind="show" id="h7M-Ze-6uj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Z8M-CI-svU" firstAttribute="trailing" secondItem="sBb-mN-a1u" secondAttribute="trailing" id="0bt-cu-zJT"/>
+                            <constraint firstItem="cNP-p1-cyy" firstAttribute="top" secondItem="sBb-mN-a1u" secondAttribute="bottom" constant="8" symbolic="YES" id="8KU-KK-gWx"/>
+                            <constraint firstItem="7HS-rq-W0B" firstAttribute="top" secondItem="lKh-Et-4dz" secondAttribute="bottom" constant="83" id="8ua-DP-R0Q"/>
+                            <constraint firstItem="cNP-p1-cyy" firstAttribute="trailing" secondItem="hlA-R6-jsv" secondAttribute="trailing" id="CBw-He-AO4"/>
+                            <constraint firstItem="cNP-p1-cyy" firstAttribute="leading" secondItem="hlA-R6-jsv" secondAttribute="leading" id="CtB-PU-bh8"/>
+                            <constraint firstItem="lKh-Et-4dz" firstAttribute="top" secondItem="ogs-7J-TLg" secondAttribute="top" id="Fci-39-GOS"/>
+                            <constraint firstItem="sBb-mN-a1u" firstAttribute="trailing" secondItem="cNP-p1-cyy" secondAttribute="trailing" id="L54-xA-2ug"/>
+                            <constraint firstItem="sBb-mN-a1u" firstAttribute="top" secondItem="Z8M-CI-svU" secondAttribute="bottom" constant="18" id="OyM-o2-Bh0"/>
+                            <constraint firstItem="lKh-Et-4dz" firstAttribute="leading" secondItem="ugv-Fd-cPP" secondAttribute="leading" id="Pd3-Mn-nKW"/>
+                            <constraint firstAttribute="trailing" secondItem="lKh-Et-4dz" secondAttribute="trailing" id="RJM-Nv-bXe"/>
+                            <constraint firstItem="ogs-7J-TLg" firstAttribute="bottom" secondItem="Hoj-8C-z55" secondAttribute="bottom" constant="78" id="TbI-u4-1hj"/>
+                            <constraint firstItem="Z8M-CI-svU" firstAttribute="leading" secondItem="ugv-Fd-cPP" secondAttribute="leadingMargin" id="UqB-x4-QiF"/>
+                            <constraint firstItem="hlA-R6-jsv" firstAttribute="top" secondItem="cNP-p1-cyy" secondAttribute="bottom" constant="25" id="YU3-ZJ-5Pg"/>
+                            <constraint firstItem="hlA-R6-jsv" firstAttribute="trailing" secondItem="Hoj-8C-z55" secondAttribute="trailing" id="bvG-in-OVh"/>
+                            <constraint firstItem="hlA-R6-jsv" firstAttribute="leading" secondItem="Hoj-8C-z55" secondAttribute="leading" id="cSA-RX-APV"/>
+                            <constraint firstItem="Z8M-CI-svU" firstAttribute="top" secondItem="7HS-rq-W0B" secondAttribute="bottom" constant="21" id="jfW-2X-bAI"/>
+                            <constraint firstItem="7HS-rq-W0B" firstAttribute="centerX" secondItem="Z8M-CI-svU" secondAttribute="centerX" id="jsw-WG-0Rw"/>
+                            <constraint firstItem="lKh-Et-4dz" firstAttribute="centerX" secondItem="7HS-rq-W0B" secondAttribute="centerX" id="s5O-jK-yAT"/>
+                            <constraint firstItem="Z8M-CI-svU" firstAttribute="leading" secondItem="sBb-mN-a1u" secondAttribute="leading" id="sCN-od-y1J"/>
+                            <constraint firstItem="Hoj-8C-z55" firstAttribute="top" secondItem="hlA-R6-jsv" secondAttribute="bottom" constant="19" id="wUU-PM-AgJ"/>
+                            <constraint firstItem="sBb-mN-a1u" firstAttribute="leading" secondItem="cNP-p1-cyy" secondAttribute="leading" id="zhm-Zy-vJs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ogs-7J-TLg"/>
                     </view>
                 </viewController>
@@ -149,6 +185,21 @@
                     <view key="view" contentMode="scaleToFill" id="JoQ-Zo-MqW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9V-XW-LXd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Vegan/Vegitarian" id="NSV-ZX-8ck">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Jxw-ui-5PN">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="54p-vL-MmP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ryo-ca-Ewk"/>
                     </view>
@@ -164,6 +215,21 @@
                     <view key="view" contentMode="scaleToFill" id="Fkk-qz-bTA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T9C-OZ-k4J">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Fasting" id="QGZ-v6-iYv">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="0vC-Qh-vbS">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="ETc-v5-kR5"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cyz-zf-Die"/>
                     </view>
@@ -180,38 +246,89 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ur-lK-cfm">
-                                <rect key="frame" x="-90" y="266" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ur-lK-cfm">
+                                <rect key="frame" x="-90.5" y="266" width="595" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="bsN-0w-mwm"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Eggs"/>
+                                <connections>
+                                    <segue destination="OTJ-5x-5nP" kind="show" id="eJP-8b-taC"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-NK-mJr">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-NK-mJr">
                                 <rect key="frame" x="-90" y="405" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Nut (Tree and Peanut)"/>
+                                <connections>
+                                    <segue destination="ATw-eE-ci6" kind="show" id="3SQ-qA-Xq3"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iS-zE-CLq">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iS-zE-CLq">
                                 <rect key="frame" x="-90" y="523" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="Ahv-O0-Tan"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Shellfish/Seafood"/>
+                                <connections>
+                                    <segue destination="2n9-ab-44i" kind="show" id="l8q-UM-rld"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vhx-mb-uRa">
-                                <rect key="frame" x="-90" y="148" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vhx-mb-uRa">
+                                <rect key="frame" x="-90.5" y="148" width="595" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="595" id="fQZ-eB-mSV"/>
+                                    <constraint firstAttribute="height" constant="87" id="vDi-zg-SD5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Soy"/>
+                                <connections>
+                                    <segue destination="xry-G3-uf5" kind="show" id="Via-hM-0P2"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0A-xo-Krb">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0A-xo-Krb">
                                 <rect key="frame" x="-90" y="654" width="595" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Fruits/Vegies"/>
+                                <connections>
+                                    <segue destination="ueR-7q-P1z" kind="show" id="YUE-ME-WDI"/>
+                                </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Efa-Zp-YUn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Allergies" id="eds-jg-Sqj">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="mAg-8b-LeC">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="HGF-vU-sCQ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6iS-zE-CLq" firstAttribute="trailing" secondItem="h0A-xo-Krb" secondAttribute="trailing" id="13U-sd-LTD"/>
+                            <constraint firstItem="Ir7-NK-mJr" firstAttribute="trailing" secondItem="6iS-zE-CLq" secondAttribute="trailing" id="1pZ-5b-vhE"/>
+                            <constraint firstItem="3ur-lK-cfm" firstAttribute="trailing" secondItem="Ir7-NK-mJr" secondAttribute="trailing" id="4c8-18-mfj"/>
+                            <constraint firstItem="Vhx-mb-uRa" firstAttribute="top" secondItem="gSf-nQ-cw3" secondAttribute="top" constant="104" id="9K6-bi-iY2"/>
+                            <constraint firstItem="Ir7-NK-mJr" firstAttribute="top" secondItem="3ur-lK-cfm" secondAttribute="bottom" constant="52" id="9mi-ee-NLn"/>
+                            <constraint firstItem="6iS-zE-CLq" firstAttribute="leading" secondItem="h0A-xo-Krb" secondAttribute="leading" id="9r2-cG-Dz9"/>
+                            <constraint firstItem="3ur-lK-cfm" firstAttribute="leading" secondItem="Ir7-NK-mJr" secondAttribute="leading" id="Hg0-o2-8DN"/>
+                            <constraint firstItem="Vhx-mb-uRa" firstAttribute="leading" secondItem="3ur-lK-cfm" secondAttribute="leading" id="UnP-Qa-Dhy"/>
+                            <constraint firstItem="Ir7-NK-mJr" firstAttribute="centerY" secondItem="Vtn-ot-GKE" secondAttribute="centerY" id="a92-5i-Vhl"/>
+                            <constraint firstItem="h0A-xo-Krb" firstAttribute="top" secondItem="6iS-zE-CLq" secondAttribute="bottom" constant="44" id="aQ7-j0-tAg"/>
+                            <constraint firstItem="Ir7-NK-mJr" firstAttribute="leading" secondItem="6iS-zE-CLq" secondAttribute="leading" id="apx-Gr-ELo"/>
+                            <constraint firstItem="gSf-nQ-cw3" firstAttribute="bottom" secondItem="h0A-xo-Krb" secondAttribute="bottom" constant="121" id="eAF-8h-thu"/>
+                            <constraint firstItem="Vhx-mb-uRa" firstAttribute="centerX" secondItem="Vtn-ot-GKE" secondAttribute="centerX" id="ekQ-yh-hWi"/>
+                            <constraint firstItem="3ur-lK-cfm" firstAttribute="top" secondItem="Vhx-mb-uRa" secondAttribute="bottom" constant="31" id="hH6-WZ-Nnr"/>
+                            <constraint firstItem="6iS-zE-CLq" firstAttribute="top" secondItem="Ir7-NK-mJr" secondAttribute="bottom" constant="31" id="ncb-OT-qie"/>
+                            <constraint firstItem="Vhx-mb-uRa" firstAttribute="trailing" secondItem="3ur-lK-cfm" secondAttribute="trailing" id="wbq-By-o9I"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gSf-nQ-cw3"/>
                     </view>
                 </viewController>
@@ -220,12 +337,207 @@
             <point key="canvasLocation" x="1752" y="281"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="khO-dI-EQy">
+            <objects>
+                <viewController id="xry-G3-uf5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Lt-4F-lw4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W4c-AS-Wum">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Soy" id="An8-lm-j8I">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="bs8-8L-GDv">
+                                            <connections>
+                                                <segue destination="tVV-T4-wzI" kind="show" id="UiA-rd-41l"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2SG-af-EtD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7M-hx-2Vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2575" y="-173"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4eT-pU-lCo">
+            <objects>
+                <viewController id="OTJ-5x-5nP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sFW-Js-K01">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jaS-3y-hOj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Eggs" id="W6U-RF-pIH">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="wgY-nC-9Ri">
+                                            <connections>
+                                                <segue destination="tVV-T4-wzI" kind="show" id="oVo-6l-38y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Af-eE-vXw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i0g-2j-DHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3432" y="21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qem-tr-xxi">
+            <objects>
+                <viewController id="ueR-7q-P1z" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gdF-HE-Eyl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SuB-eL-aT8">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Fruits/Veggies" id="7xO-Vo-sro">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="L08-tO-dcq">
+                                            <connections>
+                                                <segue destination="tVV-T4-wzI" kind="show" id="7sM-lB-0vs"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QIx-50-Tvq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQF-gM-Ybx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1891" y="957"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aN3-Bu-rHR">
+            <objects>
+                <viewController id="2n9-ab-44i" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m7e-QC-d6v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eTO-je-bzn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Shellfish/SeaFood" id="TmC-uE-ck1">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ahC-Fx-Zfi">
+                                            <connections>
+                                                <segue destination="tVV-T4-wzI" kind="show" id="1fp-bV-kbb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lNu-5k-7gc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1S-gD-fND" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2551" y="654"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EOV-nV-jf3">
+            <objects>
+                <viewController id="dVo-A4-2QH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1DN-7m-G01">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ce-vH-gII">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Dieting" id="nHn-2n-fuG">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="l6s-5k-gb1">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="1Dz-kL-8xP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7qH-rn-em7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbG-M0-Fyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3284" y="1085"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ltT-L8-vHR">
+            <objects>
+                <viewController id="ATw-eE-ci6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lPZ-4a-r1l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDK-ml-tqa">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Nuts(Tree and Peanuts)" id="U6O-5N-n3L">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="U1n-fW-2Ae">
+                                            <connections>
+                                                <segue destination="tVV-T4-wzI" kind="show" id="14q-o1-bV8"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AMg-Zf-97v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CdL-BD-l28" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4117" y="387"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="xh8-ta-QxP">
             <objects>
                 <viewController id="AcG-KJ-cq9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yxy-e5-gM7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dib-Qh-Y1y">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Celiac/Gluten Intolerance" id="gLX-Wl-E5A">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="GxY-7k-2Fd">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="af5-cH-lb7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eSE-ig-JVI"/>
                     </view>
@@ -241,6 +553,21 @@
                     <view key="view" contentMode="scaleToFill" id="f0d-kJ-BMr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aaZ-rI-bgV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Lactose Intolerance" id="Lln-xf-yIp">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="vDz-0f-Oa7">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="IH2-6c-ks4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LXT-Vg-erX"/>
                     </view>
@@ -250,4 +577,9 @@
             <point key="canvasLocation" x="1712" y="-368"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Via-hM-0P2"/>
+        <segue reference="UiA-rd-41l"/>
+        <segue reference="HGF-vU-sCQ"/>
+    </inferredMetricsTieBreakers>
 </document>
