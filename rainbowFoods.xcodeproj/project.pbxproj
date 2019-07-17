@@ -13,7 +13,6 @@
 		189CCD7B22DF89A300D2E91A /* rainbowFoods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 189CCD7922DF89A300D2E91A /* rainbowFoods.xcdatamodeld */; };
 		189CCD7D22DF89A500D2E91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189CCD7C22DF89A500D2E91A /* Assets.xcassets */; };
 		189CCD8022DF89A500D2E91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CCD7E22DF89A500D2E91A /* LaunchScreen.storyboard */; };
-		189CCD8822DF90C900D2E91A /* foodListOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CCD8722DF90C900D2E91A /* foodListOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		189CCD7C22DF89A500D2E91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189CCD7F22DF89A500D2E91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189CCD8122DF89A500D2E91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		189CCD8722DF90C900D2E91A /* foodListOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodListOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				189CCD7222DF89A300D2E91A /* AppDelegate.swift */,
 				189CCD7422DF89A300D2E91A /* ViewController.swift */,
 				189CCD7622DF89A300D2E91A /* Main.storyboard */,
-				189CCD8722DF90C900D2E91A /* foodListOne.swift */,
 				189CCD7C22DF89A500D2E91A /* Assets.xcassets */,
 				189CCD7E22DF89A500D2E91A /* LaunchScreen.storyboard */,
 				189CCD8122DF89A500D2E91A /* Info.plist */,
@@ -143,7 +140,6 @@
 			files = (
 				189CCD7522DF89A300D2E91A /* ViewController.swift in Sources */,
 				189CCD7322DF89A300D2E91A /* AppDelegate.swift in Sources */,
-				189CCD8822DF90C900D2E91A /* foodListOne.swift in Sources */,
 				189CCD7B22DF89A300D2E91A /* rainbowFoods.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
