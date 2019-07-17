@@ -18,17 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rainbow Foods" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wx-1e-Ang">
-                                <rect key="frame" x="0.0" y="92" width="414" height="154"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="154" id="Lcy-fz-NvO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCW-Ji-tcl">
-                                <rect key="frame" x="77" y="544" width="261" height="170"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCW-Ji-tcl">
+                                <rect key="frame" x="76.5" y="544" width="261" height="170"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="132"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -37,8 +28,14 @@
                                     <segue destination="Ghd-Gm-10w" kind="show" id="uRn-b6-1xI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rainbow Foods" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wx-1e-Ang">
+                                <rect key="frame" x="15" y="107" width="384" height="160"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🌈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-Qf-tuy">
-                                <rect key="frame" x="175" y="300" width="64" height="71"/>
+                                <rect key="frame" x="157" y="348" width="100" height="71"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="59"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,14 +43,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.58438979240461553" green="0.87052316125464491" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5QO-v4-vmP"/>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="centerX" secondItem="nCW-Ji-tcl" secondAttribute="centerX" id="UFw-n1-sPD"/>
-                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="209" id="X77-29-kXw"/>
-                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="YOF-Nn-1Xg"/>
-                            <constraint firstAttribute="trailing" secondItem="7Wx-1e-Ang" secondAttribute="trailing" id="gOk-eu-pUb"/>
-                            <constraint firstItem="nCW-Ji-tcl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="ipN-Ig-Poe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCW-Ji-tcl" secondAttribute="bottom" constant="148" id="r6y-Qz-Jmy"/>
-                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="top" secondItem="7Wx-1e-Ang" secondAttribute="bottom" constant="29" id="thV-KW-1vd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Wx-1e-Ang" secondAttribute="trailing" constant="15" id="0JX-6j-smu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Wx-1e-Ang" secondAttribute="bottom" constant="595" id="125-d6-cAt"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="63" id="4j8-dW-9xG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oFk-Qf-tuy" secondAttribute="bottom" constant="516" id="7OD-fs-nnC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oFk-Qf-tuy" secondAttribute="trailing" constant="175" id="AFo-Pe-L6G"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AGE-ZP-Dl3"/>
+                            <constraint firstItem="nCW-Ji-tcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="500" id="O7e-jx-16f"/>
+                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="RbP-2e-7az"/>
+                            <constraint firstItem="nCW-Ji-tcl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bea-rc-aeu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nCW-Ji-tcl" secondAttribute="bottom" constant="148" id="nnD-9N-CZo"/>
+                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="231" id="oT9-La-QGA"/>
+                            <constraint firstItem="7Wx-1e-Ang" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wRa-NB-a8T"/>
+                            <constraint firstItem="oFk-Qf-tuy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zot-WP-MlP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -206,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shq-gr-00t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="824"/>
+            <point key="canvasLocation" x="-35" y="1200"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gZJ-cf-idz">
@@ -236,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hh5-7z-nrH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1113" y="801"/>
+            <point key="canvasLocation" x="1341" y="1160"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BxC-hH-LdN">
@@ -255,14 +257,6 @@
                                 <state key="normal" title="Eggs"/>
                                 <connections>
                                     <segue destination="OTJ-5x-5nP" kind="show" id="eJP-8b-taC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-NK-mJr">
-                                <rect key="frame" x="-90" y="405" width="595" height="87"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <state key="normal" title="Nut (Tree and Peanut)"/>
-                                <connections>
-                                    <segue destination="ATw-eE-ci6" kind="show" id="3SQ-qA-Xq3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iS-zE-CLq">
@@ -309,6 +303,14 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ir7-NK-mJr">
+                                <rect key="frame" x="-90" y="379" width="595" height="87"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <state key="normal" title="Nut (Tree and Peanut)"/>
+                                <connections>
+                                    <segue destination="ATw-eE-ci6" kind="show" id="3SQ-qA-Xq3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -334,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PlU-1l-qwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1752" y="281"/>
+            <point key="canvasLocation" x="3164" y="328"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="khO-dI-EQy">
@@ -364,7 +366,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7M-hx-2Vj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2575" y="-173"/>
+            <point key="canvasLocation" x="3400" y="-475"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4eT-pU-lCo">
@@ -394,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i0g-2j-DHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3432" y="21"/>
+            <point key="canvasLocation" x="4371" y="-384"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qem-tr-xxi">
@@ -424,7 +426,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQF-gM-Ybx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1891" y="957"/>
+            <point key="canvasLocation" x="2264" y="1200"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aN3-Bu-rHR">
@@ -454,7 +456,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t1S-gD-fND" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2551" y="654"/>
+            <point key="canvasLocation" x="3833" y="1294"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EOV-nV-jf3">
@@ -484,7 +486,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zbG-M0-Fyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3284" y="1085"/>
+            <point key="canvasLocation" x="2099" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ltT-L8-vHR">
@@ -514,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CdL-BD-l28" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4117" y="387"/>
+            <point key="canvasLocation" x="4372" y="479"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xh8-ta-QxP">
@@ -537,6 +539,37 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is celiac/gluten intolerance? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="myK-81-XOE">
+                                <rect key="frame" x="20" y="104" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Celiac is an immune reaction to eating gluten, a protein found in wheat, barley, and rye. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bms-Bz-haC">
+                                <rect key="frame" x="0.0" y="191" width="414" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gluten intolerance is a sensitvity to gluten." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqS-KF-i2h">
+                                <rect key="frame" x="0.0" y="364" width="414" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQs-0n-UId">
+                                <rect key="frame" x="119" y="475" width="176" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="gluten"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBS-3S-ZDr">
+                                <rect key="frame" x="109" y="666" width="196" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="gluten2"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eSE-ig-JVI"/>
@@ -544,7 +577,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KTB-wn-Ad2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="961" y="-567"/>
+            <point key="canvasLocation" x="179.71014492753625" y="-747.32142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hbb-hM-vse">
@@ -574,12 +607,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhu-g0-Y0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1712" y="-368"/>
+            <point key="canvasLocation" x="1799" y="-706"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gluten" width="275" height="183"/>
+        <image name="gluten2" width="225" height="225"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Via-hM-0P2"/>
-        <segue reference="UiA-rd-41l"/>
-        <segue reference="HGF-vU-sCQ"/>
+        <segue reference="8fh-Pr-IaG"/>
+        <segue reference="af5-cH-lb7"/>
     </inferredMetricsTieBreakers>
 </document>
