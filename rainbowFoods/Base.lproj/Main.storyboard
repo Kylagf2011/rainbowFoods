@@ -521,7 +521,7 @@
         <!--View Controller-->
         <scene sceneID="xh8-ta-QxP">
             <objects>
-                <viewController id="AcG-KJ-cq9" sceneMemberID="viewController">
+                <viewController id="AcG-KJ-cq9" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yxy-e5-gM7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -564,11 +564,17 @@
                                 <rect key="frame" x="119" y="475" width="176" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="gluten"/>
+                                <connections>
+                                    <action selector="glutenHelpTap:" destination="AcG-KJ-cq9" eventType="touchUpInside" id="PHP-2a-bUI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBS-3S-ZDr">
                                 <rect key="frame" x="109" y="666" width="196" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="gluten2"/>
+                                <connections>
+                                    <action selector="glutenHelpTapTwo:" destination="AcG-KJ-cq9" eventType="touchUpInside" id="8Iz-kL-3qf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -582,7 +588,7 @@
         <!--View Controller-->
         <scene sceneID="Hbb-hM-vse">
             <objects>
-                <viewController id="X52-6Q-n7P" sceneMemberID="viewController">
+                <viewController id="X52-6Q-n7P" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f0d-kJ-BMr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -600,6 +606,36 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is lactose intolerance? " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXZ-o9-LJ8">
+                                <rect key="frame" x="20" y="140" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lactose intolerance is a sensitvity to lactose. Dairy products cause indigestion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LD-OL-DQQ">
+                                <rect key="frame" x="0.0" y="248" width="414" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jG3-pg-gRI">
+                                <rect key="frame" x="32" y="450" width="351" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lactose"/>
+                                <connections>
+                                    <action selector="lactoseHelpTap:" destination="X52-6Q-n7P" eventType="touchUpInside" id="uos-wm-yZX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I10-vF-kxA">
+                                <rect key="frame" x="34" y="657" width="347" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="lactose2"/>
+                                <connections>
+                                    <action selector="lactoseHelpTapTwo:" destination="X52-6Q-n7P" eventType="touchUpInside" id="5hf-0s-lRj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="LXT-Vg-erX"/>
@@ -607,15 +643,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhu-g0-Y0D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1799" y="-706"/>
+            <point key="canvasLocation" x="1798.5507246376812" y="-706.47321428571422"/>
         </scene>
     </scenes>
     <resources>
         <image name="gluten" width="275" height="183"/>
         <image name="gluten2" width="225" height="225"/>
+        <image name="lactose" width="297" height="170"/>
+        <image name="lactose2" width="293" height="172"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8fh-Pr-IaG"/>
-        <segue reference="af5-cH-lb7"/>
+        <segue reference="IH2-6c-ks4"/>
     </inferredMetricsTieBreakers>
 </document>
