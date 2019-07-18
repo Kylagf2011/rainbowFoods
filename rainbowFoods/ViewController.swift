@@ -88,5 +88,30 @@ class ViewController: UIViewController {
     @IBAction func typeTwoTap(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193")! as URL, options: [:], completionHandler: nil)
     }
+    
+    @IBAction func anorexiaTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/anorexia")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func bulimiaTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bulimia")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func bingeTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bed")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func picaTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/other/pica")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func ruminationTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/other/rumination-disorder")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func afridTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.nationaleatingdisorders.org/learn/by-eating-disorder/arfid")! as URL, options: [:], completionHandler: nil)
+    }
 }
 

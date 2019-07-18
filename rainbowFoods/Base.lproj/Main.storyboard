@@ -256,6 +256,331 @@
             <point key="canvasLocation" x="960.86956521739137" y="116.51785714285714"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ixb-68-4v0">
+            <objects>
+                <viewController id="d5R-Xp-gaa" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5yK-PD-nCt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rlq-n3-UhM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Anorexia Nervosa" id="0Yy-5h-g6a">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="urf-AT-Jf5">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="H0l-fa-eZR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is anorexia nervosa?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a8Y-6H-Bjq">
+                                <rect key="frame" x="20" y="110" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27j-1z-Iou">
+                                <rect key="frame" x="0.0" y="197" width="414" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">People with anorexia generally view themselves as overweight, even if they’re dangerously underweight. They tend to constantly monitor their weight, avoid eating certain types of foods and severely restrict their calories.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxh-ue-LiW">
+                                <rect key="frame" x="78" y="551" width="259" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="anorexia"/>
+                                <connections>
+                                    <action selector="anorexiaTap:" destination="d5R-Xp-gaa" eventType="touchUpInside" id="QXe-vN-VlG"/>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="ixB-4J-jah"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="axZ-t3-LAU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05G-0O-7G2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669.56521739130437" y="1847.5446428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6CX-F6-bV1">
+            <objects>
+                <viewController id="yJU-Ia-vXe" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aB1-Ot-xKu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Yd-NK-RM5">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Bulimia Nervos" id="9xj-bF-jsI">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="1YD-Qf-0lP">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="b1T-lX-wT4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is bulimia nervos?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEL-xh-91T">
+                                <rect key="frame" x="20" y="88" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrN-NH-aAz">
+                                <rect key="frame" x="0.0" y="164" width="414" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">People with bulimia frequently eat unusually large amounts of food in a relatively short period. Individuals with bulimia then attempt to purge to compensate for the calories consumed and relieve gut discomfort.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHe-eX-nfZ">
+                                <rect key="frame" x="79" y="539" width="257" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="bulimia"/>
+                                <connections>
+                                    <action selector="bulimiaTap:" destination="yJU-Ia-vXe" eventType="touchUpInside" id="iBQ-hb-0t0"/>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="4Io-o6-62i"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Uix-e5-R3V"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idE-sL-feO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="586.95652173913049" y="2631.6964285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1QR-yP-uE5">
+            <objects>
+                <viewController id="APq-rg-Oy6" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="npe-af-9rS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNV-me-W3C">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Binge Eating Disorder" id="zGo-Ya-GiR">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="07k-O7-2JJ">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="bXE-kh-dhp"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is binge eating disorder?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJb-lV-9nt">
+                                <rect key="frame" x="25" y="111" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Binge eating disorder typically begins during adolescence and early adulthood, although it can also develop later on." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FRl-Oy-bXm">
+                                <rect key="frame" x="0.0" y="198" width="414" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fUx-mv-Wab">
+                                <rect key="frame" x="78" y="562" width="258" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="binge"/>
+                                <connections>
+                                    <action selector="bingeTap:" destination="APq-rg-Oy6" eventType="touchUpInside" id="HTS-wG-PIT"/>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="G5T-IW-zM0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SwS-BL-Y8c"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0g-nX-ptr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1305.7971014492755" y="2803.7946428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yU1-ch-qMP">
+            <objects>
+                <viewController id="vbd-28-VjW" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FAn-Pe-646">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RoA-9d-BS6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Pica" id="xdl-oZ-q6m">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="aEe-aW-dbZ">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="qcb-be-UH9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is pica?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWn-Ld-TDf">
+                                <rect key="frame" x="23" y="112" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-xQ-Nbe">
+                                <rect key="frame" x="0.0" y="173" width="414" height="307"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Individuals with pica crave non-food substances such as ice, dirt, soil, chalk, soap, paper, hair, cloth, wool, pebbles, laundry detergent or cornstarch. Pica can occur in adults, as well as children and adolescents. That said, this disorder is most frequently observed in children, pregnant women and individuals with mental disabilities.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4l-7b-IJa">
+                                <rect key="frame" x="79" y="562" width="262" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pica"/>
+                                <connections>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="ogU-Mv-2l9"/>
+                                    <action selector="picaTap:" destination="vbd-28-VjW" eventType="touchUpInside" id="y9Y-39-7j6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UiN-BF-7Ph"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6q-Vr-Y24" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2011.594202898551" y="2666.5178571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ATw-X2-SJz">
+            <objects>
+                <viewController id="ItZ-fH-zAO" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Zv-WK-R9y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRk-Kc-F8x">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Rumination Disorder" id="WNE-hY-aoL">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="kUT-p6-mgf">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="wkU-P7-fLZ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is rumination disorder?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAw-Qj-cxg">
+                                <rect key="frame" x="22" y="88" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPj-EL-OqO">
+                                <rect key="frame" x="0.0" y="175" width="414" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Rumination disorder can affect people at all stages of life. People with the condition generally regurgitate the food they've recently swallowed. Then they chew it again and either swallow it or spit it out.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldw-7b-tf7">
+                                <rect key="frame" x="80" y="551" width="258" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="rumination"/>
+                                <connections>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="FF6-ZI-xB7"/>
+                                    <action selector="ruminationTap:" destination="ItZ-fH-zAO" eventType="touchUpInside" id="IJ6-Q9-2va"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IXo-Bo-foS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N18-Yy-uGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2862.3188405797105" y="2447.5446428571427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lAD-Yq-989">
+            <objects>
+                <viewController id="H9z-zn-rid" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g59-Xh-AwC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oL0-fW-xgS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Avoidant or Restrictive Food Intake Disorder" id="lGR-Lf-GFj">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="TB3-GH-nrg">
+                                            <connections>
+                                                <segue destination="nPb-tO-BWC" kind="show" id="MJQ-Fk-gXC"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is Avoidant or Restrictive Food Intake Disorder?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3a-ba-l1X">
+                                <rect key="frame" x="0.0" y="100" width="414" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuU-iC-iUy">
+                                <rect key="frame" x="0.0" y="187" width="414" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">ARFID is an eating disorder that causes people to undereat. This is either due to a lack of interest in food or an intense distaste for how certain foods look, smell or taste.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bB5-zI-LDY">
+                                <rect key="frame" x="76" y="521" width="262" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="arfid"/>
+                                <connections>
+                                    <action selector="afridTap:" destination="H9z-zn-rid" eventType="touchUpInside" id="bkj-pa-VcP"/>
+                                    <action selector="fastingTap:" destination="RxZ-Ks-PMm" eventType="touchUpInside" id="eHS-AL-tLx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="shw-xu-n2W"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9V-Vz-Og1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3082.608695652174" y="1767.8571428571429"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="JZm-fA-hBn">
             <objects>
                 <viewController id="nPb-tO-BWC" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
@@ -281,36 +606,54 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Anorexia Nervosa"/>
+                                <connections>
+                                    <segue destination="d5R-Xp-gaa" kind="show" id="pBm-dB-oc8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDN-ci-dob">
                                 <rect key="frame" x="20" y="249" width="374" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Bulimia Nervosa"/>
+                                <connections>
+                                    <segue destination="yJU-Ia-vXe" kind="show" id="S09-M4-ahJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4g-TV-GSa">
                                 <rect key="frame" x="20" y="479" width="374" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Pica"/>
+                                <connections>
+                                    <segue destination="vbd-28-VjW" kind="show" id="nRL-pz-xn9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gew-ZY-NMu">
                                 <rect key="frame" x="20" y="609" width="374" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Rumination Disorder"/>
+                                <connections>
+                                    <segue destination="ItZ-fH-zAO" kind="show" id="WNU-99-uxJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBl-K0-CdI">
                                 <rect key="frame" x="0.0" y="728" width="414" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Avoidant or Restrictive Food Intake Disorder"/>
+                                <connections>
+                                    <segue destination="H9z-zn-rid" kind="show" id="s0D-lK-adz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqG-S4-gVW">
                                 <rect key="frame" x="20" y="357" width="374" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="Binge Eating Disorder"/>
+                                <connections>
+                                    <segue destination="APq-rg-Oy6" kind="show" id="iwi-IG-bqE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -319,7 +662,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mwA-7u-XhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600.0000000000002" y="939.50892857142856"/>
+            <point key="canvasLocation" x="1503" y="1730"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iFV-0N-ZsI">
@@ -1030,6 +1373,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="anorexia" width="261" height="193"/>
+        <image name="arfid" width="261" height="193"/>
+        <image name="binge" width="261" height="193"/>
+        <image name="bulimia" width="261" height="193"/>
         <image name="dieting" width="369" height="136"/>
         <image name="egg" width="241" height="209"/>
         <image name="fasting" width="314" height="160"/>
@@ -1039,6 +1386,8 @@
         <image name="lactose" width="297" height="170"/>
         <image name="lactose2" width="293" height="172"/>
         <image name="peanut" width="286" height="176"/>
+        <image name="pica" width="261" height="193"/>
+        <image name="rumination" width="261" height="193"/>
         <image name="seafood" width="226" height="223"/>
         <image name="shellfish" width="276" height="183"/>
         <image name="soy" width="274" height="184"/>
@@ -1050,7 +1399,8 @@
         <image name="vv2" width="750" height="580"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8fh-Pr-IaG"/>
+        <segue reference="7sM-lB-0vs"/>
+        <segue reference="MJQ-Fk-gXC"/>
         <segue reference="Gob-Yg-UmN"/>
     </inferredMetricsTieBreakers>
 </document>
