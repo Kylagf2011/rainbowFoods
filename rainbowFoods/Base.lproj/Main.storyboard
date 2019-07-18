@@ -505,7 +505,7 @@
         <!--View Controller-->
         <scene sceneID="Qem-tr-xxi">
             <objects>
-                <viewController id="ueR-7q-P1z" sceneMemberID="viewController">
+                <viewController id="ueR-7q-P1z" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gdF-HE-Eyl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -523,6 +523,44 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is a fruit/veggie allergy?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPw-Vj-UYd">
+                                <rect key="frame" x="15" y="130" width="379" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An allergy to fruit is when someone can't have anything containing a certain fruit(s)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gng-V8-CyX">
+                                <rect key="frame" x="0.0" y="181" width="414" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An allergy to veggies is when someone can't have anything containing a certain veggie(s)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkv-ap-kDZ">
+                                <rect key="frame" x="0.0" y="292" width="414" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUv-6y-1q6">
+                                <rect key="frame" x="86" y="403" width="242" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="fruit"/>
+                                <connections>
+                                    <action selector="fruitTap:" destination="ueR-7q-P1z" eventType="touchUpInside" id="mMx-iW-o5m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXP-GB-jec">
+                                <rect key="frame" x="86" y="633" width="242" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="veggie"/>
+                                <connections>
+                                    <action selector="fruitTap:" destination="ueR-7q-P1z" eventType="touchUpInside" id="sVi-Jq-k4h"/>
+                                    <action selector="veggieTap:" destination="ueR-7q-P1z" eventType="touchUpInside" id="SAk-Jy-6pO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QIx-50-Tvq"/>
@@ -530,7 +568,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rQF-gM-Ybx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2264" y="1200"/>
+            <point key="canvasLocation" x="2263.768115942029" y="1200"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aN3-Bu-rHR">
@@ -844,6 +882,7 @@
         <image name="dieting" width="369" height="136"/>
         <image name="egg" width="241" height="209"/>
         <image name="fasting" width="314" height="160"/>
+        <image name="fruit" width="243" height="207"/>
         <image name="gluten" width="275" height="183"/>
         <image name="gluten2" width="225" height="225"/>
         <image name="lactose" width="297" height="170"/>
@@ -853,11 +892,12 @@
         <image name="shellfish" width="276" height="183"/>
         <image name="soy" width="274" height="184"/>
         <image name="treenut" width="225" height="225"/>
+        <image name="veggie" width="275" height="183"/>
         <image name="vv" width="275" height="183"/>
         <image name="vv2" width="750" height="580"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1fp-bV-kbb"/>
+        <segue reference="7sM-lB-0vs"/>
         <segue reference="IH2-6c-ks4"/>
     </inferredMetricsTieBreakers>
 </document>

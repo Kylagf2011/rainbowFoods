@@ -73,5 +73,13 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.webmd.com/allergies/news/20040713/seafood-allergies-common-adults")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func fruitTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.healthline.com/health/fruit-allergy")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func veggieTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://farrp.unl.edu/informallvegetables")! as URL, options: [:], completionHandler: nil)
+    }
+    
 }
 
