@@ -11,79 +11,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="DMh-jv-y4l">
-            <objects>
-                <viewController id="thi-Y3-j3n" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="65m-Qy-VUM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="laa-RK-kfH">
-                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Diabetes" id="QoW-k6-Bax">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="d1b-u1-qW7">
-                                            <connections>
-                                                <segue destination="Ghd-Gm-10w" kind="show" id="dB4-wN-ppz"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is diabetes?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-3E-Wwx">
-                                <rect key="frame" x="20" y="103" width="374" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type one diabetes is a chronic condition where the pancreas produse little to no insulin." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SR-JZ-Ezz">
-                                <rect key="frame" x="0.0" y="173" width="414" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type two diabetes where your body doesn't use insulin correctly." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCe-mU-x4e">
-                                <rect key="frame" x="0.0" y="272" width="414" height="91"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rl5-4F-Nfk">
-                                <rect key="frame" x="70" y="394" width="275" height="219"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="type1"/>
-                                <connections>
-                                    <action selector="typeOneTap:" destination="thi-Y3-j3n" eventType="touchUpInside" id="fOz-dq-47g"/>
-                                    <action selector="vvHelp:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="oqh-hJ-Jsq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCz-CG-CZB">
-                                <rect key="frame" x="70" y="652" width="275" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="type2"/>
-                                <connections>
-                                    <action selector="typeOneTap:" destination="thi-Y3-j3n" eventType="touchUpInside" id="L4c-uD-gGu"/>
-                                    <action selector="typeTwoTap:" destination="thi-Y3-j3n" eventType="touchUpInside" id="4Sa-aS-zhy"/>
-                                    <action selector="vvHelp:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="k6H-Oa-W1d"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="0Hz-lA-xsM"/>
-                    </view>
-                    <connections>
-                        <outlet property="typeOneTap" destination="65m-Qy-VUM" id="dzu-nA-k5M"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2t7-5x-Xoy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-813.04347826086962" y="795.53571428571422"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
@@ -232,7 +159,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="thi-Y3-j3n" kind="show" id="7oP-kq-r2x"/>
+                                    <segue destination="hPR-ad-Qo2" kind="show" id="6NE-DN-IYP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HS-rq-W0B">
@@ -663,6 +590,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mwA-7u-XhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1503" y="1730"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ecT-ba-Prq">
+            <objects>
+                <viewController id="hPR-ad-Qo2" customClass="ViewController" customModule="rainbowFoods" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fEt-LQ-FRu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r5v-Ko-CTl">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Diabetes" id="6D2-nw-QKF">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="eXk-6T-i78">
+                                            <connections>
+                                                <segue destination="Ghd-Gm-10w" kind="show" id="GtH-Ib-b88"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is diabetes?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Si-17-3DB">
+                                <rect key="frame" x="20" y="88" width="374" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 1 diabets is when the pancreas produces little to no insulin." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yt8-Pb-hyg">
+                                <rect key="frame" x="0.0" y="175" width="414" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type 2 diabets is when the pancreas doesn't use insulin correctly." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3l-XX-eof">
+                                <rect key="frame" x="0.0" y="274" width="414" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2X-xk-HWB">
+                                <rect key="frame" x="70" y="385" width="275" height="213"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="type1"/>
+                                <connections>
+                                    <action selector="typeOneTapped:" destination="hPR-ad-Qo2" eventType="touchUpInside" id="uMZ-a3-hDL"/>
+                                    <action selector="vvHelp:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="OD3-qX-Jk0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIy-6d-360">
+                                <rect key="frame" x="70" y="639" width="275" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="type2"/>
+                                <connections>
+                                    <action selector="typetwoTapped:" destination="hPR-ad-Qo2" eventType="touchUpInside" id="Odg-4G-yMT"/>
+                                    <action selector="vvHelp:" destination="O6T-1z-Dt3" eventType="touchUpInside" id="Taj-Sh-kDa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BZO-6N-wkb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q6l-k3-EON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-997.10144927536237" y="715.84821428571422"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iFV-0N-ZsI">
@@ -1399,8 +1395,8 @@
         <image name="vv2" width="750" height="580"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7sM-lB-0vs"/>
-        <segue reference="MJQ-Fk-gXC"/>
-        <segue reference="Gob-Yg-UmN"/>
+        <segue reference="8fh-Pr-IaG"/>
+        <segue reference="dga-60-gb0"/>
+        <segue reference="GtH-Ib-b88"/>
     </inferredMetricsTieBreakers>
 </document>
