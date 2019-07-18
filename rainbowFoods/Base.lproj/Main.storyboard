@@ -27,7 +27,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Animals in sweaters" id="HQD-XN-gih">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="1Zb-Od-26R"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="1Zb-Od-26R">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="85o-jK-WsO"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1439,5 +1443,6 @@
         <segue reference="8fh-Pr-IaG"/>
         <segue reference="wkU-P7-fLZ"/>
         <segue reference="uRn-b6-1xI"/>
+        <segue reference="85o-jK-WsO"/>
     </inferredMetricsTieBreakers>
 </document>
