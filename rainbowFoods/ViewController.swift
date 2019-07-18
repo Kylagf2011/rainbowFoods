@@ -81,5 +81,12 @@ class ViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://farrp.unl.edu/informallvegetables")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func typeOneTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.mayoclinic.org/diseases-conditions/type-1-diabetes/symptoms-causes/syc-20353011")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func typeTwoTap(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.mayoclinic.org/diseases-conditions/type-2-diabetes/symptoms-causes/syc-20351193")! as URL, options: [:], completionHandler: nil)
+    }
 }
 
